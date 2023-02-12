@@ -15,7 +15,7 @@ C:/Users/carso/OneDrive/Desktop/Unity Games/JurassicParkGame/Jurassic Park Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53330
+56451
 Successfully changed project path to: C:/Users/carso/OneDrive/Desktop/Unity Games/JurassicParkGame/Jurassic Park Game
 C:/Users/carso/OneDrive/Desktop/Unity Games/JurassicParkGame/Jurassic Park Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/carso/OneDrive/Desktop/Unity Games/JurassicParkGame/Jurassic Park Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 65.24 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 65.58 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -63,75 +63,75 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002620 seconds.
+Registered in 0.003286 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 62.75 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 65.53 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.414 seconds
+- Completed reload, in  0.467 seconds
 Domain Reload Profiling:
-	ReloadAssembly (414ms)
-		BeginReloadAssembly (45ms)
+	ReloadAssembly (468ms)
+		BeginReloadAssembly (54ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (301ms)
-			LoadAssemblies (44ms)
+		EndReloadAssembly (335ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (64ms)
+			SetupTypeCache (72ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (16ms)
-			SetupLoadedEditorAssemblies (188ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (207ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (63ms)
+				RefreshPlugins (66ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (90ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004342 seconds.
+Registered in 0.006124 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\carso\OneDrive\Desktop\Unity Games\JurassicParkGame\Jurassic Park Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\carso\OneDrive\Desktop\Unity Games\JurassicParkGame\Jurassic Park Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 60.67 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 77.29 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.734 seconds
+- Completed reload, in  0.879 seconds
 Domain Reload Profiling:
-	ReloadAssembly (734ms)
-		BeginReloadAssembly (65ms)
+	ReloadAssembly (880ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (12ms)
-		EndReloadAssembly (596ms)
-			LoadAssemblies (50ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (716ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (153ms)
+			SetupTypeCache (182ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (319ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (385ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (61ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (166ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				RefreshPlugins (77ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -139,32 +139,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4226 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (128.2 KB). Loaded Objects now: 4682.
-Memory consumption went from 160.6 MB to 160.5 MB.
-Total: 2.357600 ms (FindLiveObjects: 0.189500 ms CreateObjectMapping: 0.101300 ms MarkObjects: 1.991900 ms  DeleteObjects: 0.074000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.91 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (92.6 KB). Loaded Objects now: 4682.
-Memory consumption went from 73.7 MB to 73.6 MB.
-Total: 2.179300 ms (FindLiveObjects: 0.180200 ms CreateObjectMapping: 0.095900 ms MarkObjects: 1.873800 ms  DeleteObjects: 0.028700 ms)
+Unloading 51 unused Assets / (128.3 KB). Loaded Objects now: 4681.
+Memory consumption went from 160.6 MB to 160.4 MB.
+Total: 2.358300 ms (FindLiveObjects: 0.186900 ms CreateObjectMapping: 0.099100 ms MarkObjects: 1.992800 ms  DeleteObjects: 0.078400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -178,7 +159,250 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 190750.760775 seconds.
+  Time since last request: 232552.411591 seconds.
+  path: Assets/All Files/Scenes/About.unity
+  artifactKey: Guid(b73341fed2808924f9f714c2453c2634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All Files/Scenes/About.unity using Guid(b73341fed2808924f9f714c2453c2634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c468c853efaeccfcf0148562b72605d2') in 0.011670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.324763 seconds.
   path: Assets/All Files/Scenes/Menu.unity
   artifactKey: Guid(aff9aaf8d4c68984c9a5334437caafd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/All Files/Scenes/Menu.unity using Guid(aff9aaf8d4c68984c9a5334437caafd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d05f33222356f3d40216374fa847704') in 0.006360 seconds 
+Start importing Assets/All Files/Scenes/Menu.unity using Guid(aff9aaf8d4c68984c9a5334437caafd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d05f33222356f3d40216374fa847704') in 0.006583 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010538 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\carso\OneDrive\Desktop\Unity Games\JurassicParkGame\Jurassic Park Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\carso\OneDrive\Desktop\Unity Games\JurassicParkGame\Jurassic Park Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.521 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1521ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1205ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (435ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (494ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (339ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4205 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (95.4 KB). Loaded Objects now: 4696.
+Memory consumption went from 158.8 MB to 158.8 MB.
+Total: 2.217900 ms (FindLiveObjects: 0.181500 ms CreateObjectMapping: 0.092100 ms MarkObjects: 1.914100 ms  DeleteObjects: 0.029100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 156.281065 seconds.
+  path: Assets/AlpacaStudio_Menu_Template/Scripts/Menu_Controller.cs
+  artifactKey: Guid(c8743df17e8a2d44cbcf9d605deee399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlpacaStudio_Menu_Template/Scripts/Menu_Controller.cs using Guid(c8743df17e8a2d44cbcf9d605deee399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd72cef2c8c77790a57a3d25eb5cb9f') in 0.034404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.621306 seconds.
+  path: Assets/AlpacaStudio_Menu_Template/Scripts/Menu_Controller.cs
+  artifactKey: Guid(c8743df17e8a2d44cbcf9d605deee399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlpacaStudio_Menu_Template/Scripts/Menu_Controller.cs using Guid(c8743df17e8a2d44cbcf9d605deee399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e853138a31c0b576b7ca3f90e3dd32') in 0.003719 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005665 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\carso\OneDrive\Desktop\Unity Games\JurassicParkGame\Jurassic Park Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\carso\OneDrive\Desktop\Unity Games\JurassicParkGame\Jurassic Park Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.766 seconds
+Domain Reload Profiling:
+	ReloadAssembly (767ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (595ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (280ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4205 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (95.4 KB). Loaded Objects now: 4711.
+Memory consumption went from 158.9 MB to 158.8 MB.
+Total: 2.317200 ms (FindLiveObjects: 0.175300 ms CreateObjectMapping: 0.092000 ms MarkObjects: 2.020700 ms  DeleteObjects: 0.028200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 46.226637 seconds.
+  path: Assets/AlpacaStudio_Menu_Template/Scripts/Menu_Controller.cs
+  artifactKey: Guid(c8743df17e8a2d44cbcf9d605deee399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlpacaStudio_Menu_Template/Scripts/Menu_Controller.cs using Guid(c8743df17e8a2d44cbcf9d605deee399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb986dae02efb86b4b9075742040d99') in 0.006217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.941459 seconds.
+  path: Assets/8-bit-space-123218.mp3
+  artifactKey: Guid(f7e9525bb3bc8b540aabb95ba4e394e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8-bit-space-123218.mp3 using Guid(f7e9525bb3bc8b540aabb95ba4e394e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6b7b6b3d8ca417bbabe07d99ff3c66') in 0.083865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Rockl.png
+  artifactKey: Guid(09082f338d30e7b4c930be90d89963c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rockl.png using Guid(09082f338d30e7b4c930be90d89963c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb52baa094b6d128371b8e2978a0e56') in 0.035101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Shoot_01.mp3
+  artifactKey: Guid(a4cc3aa4970ba4469b76c20bb163371f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shoot_01.mp3 using Guid(a4cc3aa4970ba4469b76c20bb163371f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a433a866ba415b1c91eb89e7fec4e729') in 0.015994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/pixil-frame-0 (12).png
+  artifactKey: Guid(36ca4ed7b0d187b4e8555dac913519f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixil-frame-0 (12).png using Guid(36ca4ed7b0d187b4e8555dac913519f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344b199e448051d1c3a79d82b953ab13') in 0.016440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/psykick-112469.mp3
+  artifactKey: Guid(00ce4abc0d1334249a8a77d14edefded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/psykick-112469.mp3 using Guid(00ce4abc0d1334249a8a77d14edefded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af18f5bf266190f0e69d96ced3fec338') in 0.018713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/pixil-frame-0 (13).png
+  artifactKey: Guid(521bbb559f795e84cb85b7e59b6bb82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixil-frame-0 (13).png using Guid(521bbb559f795e84cb85b7e59b6bb82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5cc0ab5094a81fb30bb470bd2827084') in 0.013933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/item-obtained-123644.mp3
+  artifactKey: Guid(16cda984ff1fe1b4b931858df20344eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/item-obtained-123644.mp3 using Guid(16cda984ff1fe1b4b931858df20344eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c5ab84e9d878972f3caff1dcf3cbdc') in 0.012595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pickup_00.mp3
+  artifactKey: Guid(bfc065f505ca54117b47d3a45f758aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pickup_00.mp3 using Guid(bfc065f505ca54117b47d3a45f758aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef9c87ceb2cf5e7fa78deeb8b5d86f6') in 0.019126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/pixil-frame-0 (8).png
+  artifactKey: Guid(21a2d65b87aa7614ab3b53b75d40253e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixil-frame-0 (8).png using Guid(21a2d65b87aa7614ab3b53b75d40253e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067c812d0450b009fb530a22b01bafea') in 0.024211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Grass.png
+  artifactKey: Guid(7dcda239d27d3404485a0bfaca7814af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass.png using Guid(7dcda239d27d3404485a0bfaca7814af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8c445d2e61d014628129b789ed4e49') in 0.020385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/pixil-frame-0 (9).png
+  artifactKey: Guid(45d10949ca581174cb460d34b3b10583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixil-frame-0 (9).png using Guid(45d10949ca581174cb460d34b3b10583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf3d1ad2627f68242e9435deafdef1f') in 0.014918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Door Prefab.prefab
+  artifactKey: Guid(8d00216584bfccf408abf587ff1a3353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Door Prefab.prefab using Guid(8d00216584bfccf408abf587ff1a3353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0112ae5bf6ff71d67eb09271f3f0bf') in 0.054297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/pixil-frame-0 (11).png
+  artifactKey: Guid(9f61d80607bd5fe43baf8491ed7e119d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixil-frame-0 (11).png using Guid(9f61d80607bd5fe43baf8491ed7e119d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb29074670561dfa842c36248158e17d') in 0.021951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Key Prefab.prefab
+  artifactKey: Guid(4d44e42cae2767741b1564ec4297c657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Key Prefab.prefab using Guid(4d44e42cae2767741b1564ec4297c657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbcdcf08e6072e79b59853e82d7dbc8') in 0.014401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/neon-gaming-128925.mp3
+  artifactKey: Guid(e539e0deff616d24b994900db01cd77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/neon-gaming-128925.mp3 using Guid(e539e0deff616d24b994900db01cd77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ae5c16648cc49d20874e5d07f826f7') in 0.013348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/pixil-frame-0 (14).png
+  artifactKey: Guid(1a4d9cde693e2d9459174d6307c71840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixil-frame-0 (14).png using Guid(1a4d9cde693e2d9459174d6307c71840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f88f0271cec163330dbff683451c0b5') in 0.019304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.614029 seconds.
+  path: Assets/All Files/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(7d811487904bf9048bc6c6acfb262cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All Files/UniversalRenderPipelineGlobalSettings.asset using Guid(7d811487904bf9048bc6c6acfb262cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096ae10a60b6a5cd480e5ec655a30769') in 0.008030 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

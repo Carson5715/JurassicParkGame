@@ -7,6 +7,7 @@ public class Menu_Controller : MonoBehaviour {
 
 	[Tooltip("_sceneToLoadOnPlay is the name of the scene that will be loaded when users click play")]
 	public string _sceneToLoadOnPlay = "Level";
+	public string _sceneToLoadOnAbout = "Level";
 	[Tooltip("_webpageURL defines the URL that will be opened when users click on your branding icon")]
 	public string _webpageURL = "http://www.alpaca.studio";
 	[Tooltip("_soundButtons define the SoundOn[0] and SoundOff[1] Button objects.")]
@@ -39,6 +40,12 @@ public class Menu_Controller : MonoBehaviour {
 		_audioSource.PlayOneShot(_audioClip);
 		PlayerPrefs.SetString("_LastScene", scene.name);
 		UnityEngine.SceneManagement.SceneManager.LoadScene(_sceneToLoadOnPlay);
+	}
+
+		public void AboutScreen () {
+		_audioSource.PlayOneShot(_audioClip);
+		PlayerPrefs.SetString("_LastScene", scene.name);
+		UnityEngine.SceneManagement.SceneManager.LoadScene(_sceneToLoadOnAbout);
 	}
 	
 	public void Mute () {
