@@ -7,6 +7,7 @@ public class SC_2DCoin : MonoBehaviour
     //Keep track of total picked coins (Since the value is static, it can be accessed at "SC_2DCoin.totalCoins" from any script)
     public static int totalCoins = 0; 
     public static int totalEggs = 7; 
+    public static int KeyHave = 0;
 
     void Awake()
     {
@@ -22,14 +23,12 @@ public class SC_2DCoin : MonoBehaviour
             //Add coin to counter
             totalCoins= totalCoins + 50;
             totalEggs= totalEggs - 1;
+            KeyHave= KeyHave + 1;
             //Test: Print total number of coins
             Debug.Log("You currently have " + SC_2DCoin.totalCoins + " Coins.");
             //Destroy coin
             Destroy(gameObject);
         }
-        if (totalCoins == 350)
-        {
-        Application.LoadLevel("WinLevel");
-        }
+
     }
 }
