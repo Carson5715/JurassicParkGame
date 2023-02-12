@@ -10,6 +10,8 @@ public class Projectile : MonoBehaviour
     void Awake()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
+        GameObject player = GameObject.FindWithTag("Player");
+        Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), player.GetComponent<Collider2D>(), true);
     }
 
     void Update()
@@ -27,14 +29,21 @@ public class Projectile : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        Enemy e = other.collider.GetComponent<Enemy>();
-
-        //if the object we touched wasn't an enemy, just destroy the projectile.
-        if (e != null)
+        if(other.collider.GetComponent<Enemy>() != null)
         {
+            Enemy e = other.collider.GetComponent<Enemy>();
             e.Fix();
         }
+        else if(other.collider.GetComponent<boss>() != null) 
+        {
+            boss b = other.collider.GetComponent<boss>();
+            b.Fix();
+        }
         
-        Destroy(gameObject);
+        if(other.collider.tag != "Player")
+        {
+            Destroy(gameObject);
+        }
+      
     }
 }

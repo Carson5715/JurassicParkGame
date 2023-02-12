@@ -1,0 +1,673 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16224 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/carso/OneDrive/Desktop/Unity Games/JurassicParkGame/Jurassic Park Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52632
+Successfully changed project path to: C:/Users/carso/OneDrive/Desktop/Unity Games/JurassicParkGame/Jurassic Park Game
+C:/Users/carso/OneDrive/Desktop/Unity Games/JurassicParkGame/Jurassic Park Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 77.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/carso/OneDrive/Desktop/Unity Games/JurassicParkGame/Jurassic Park Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8050 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002704 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 58.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.402 seconds
+Domain Reload Profiling:
+	ReloadAssembly (402ms)
+		BeginReloadAssembly (45ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (289ms)
+			LoadAssemblies (44ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (64ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (16ms)
+			SetupLoadedEditorAssemblies (178ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004403 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\carso\OneDrive\Desktop\Unity Games\JurassicParkGame\Jurassic Park Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\carso\OneDrive\Desktop\Unity Games\JurassicParkGame\Jurassic Park Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 60.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.753 seconds
+Domain Reload Profiling:
+	ReloadAssembly (754ms)
+		BeginReloadAssembly (69ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (12ms)
+		EndReloadAssembly (611ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (160ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (324ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4223 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (128.2 KB). Loaded Objects now: 4680.
+Memory consumption went from 160.5 MB to 160.4 MB.
+Total: 2.530800 ms (FindLiveObjects: 0.221000 ms CreateObjectMapping: 0.116300 ms MarkObjects: 2.123100 ms  DeleteObjects: 0.069600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 167808.595419 seconds.
+  path: Assets/All Files/Audio
+  artifactKey: Guid(1cec2c79a735dab42bcf67fbb1f21b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All Files/Audio using Guid(1cec2c79a735dab42bcf67fbb1f21b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5241bcf6eb0f823f644ca75b1428274f') in 0.009071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.309837 seconds.
+  path: Assets/All Files/Scenes/Level 2.unity
+  artifactKey: Guid(24a35efd202f80447b410168cc9baae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All Files/Scenes/Level 2.unity using Guid(24a35efd202f80447b410168cc9baae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa385125c845705973d95d79e53ffa56') in 0.005578 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004432 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\carso\OneDrive\Desktop\Unity Games\JurassicParkGame\Jurassic Park Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\carso\OneDrive\Desktop\Unity Games\JurassicParkGame\Jurassic Park Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.683 seconds
+Domain Reload Profiling:
+	ReloadAssembly (684ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (538ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (267ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4202 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (95.3 KB). Loaded Objects now: 4695.
+Memory consumption went from 158.8 MB to 158.7 MB.
+Total: 2.365200 ms (FindLiveObjects: 0.184300 ms CreateObjectMapping: 0.122700 ms MarkObjects: 2.030100 ms  DeleteObjects: 0.027500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005328 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\carso\OneDrive\Desktop\Unity Games\JurassicParkGame\Jurassic Park Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\carso\OneDrive\Desktop\Unity Games\JurassicParkGame\Jurassic Park Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.728 seconds
+Domain Reload Profiling:
+	ReloadAssembly (728ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (581ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (173ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (274ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4202 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (95.4 KB). Loaded Objects now: 4710.
+Memory consumption went from 158.8 MB to 158.7 MB.
+Total: 2.504400 ms (FindLiveObjects: 0.179400 ms CreateObjectMapping: 0.090700 ms MarkObjects: 2.199600 ms  DeleteObjects: 0.034000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005876 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\carso\OneDrive\Desktop\Unity Games\JurassicParkGame\Jurassic Park Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\carso\OneDrive\Desktop\Unity Games\JurassicParkGame\Jurassic Park Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.727 seconds
+Domain Reload Profiling:
+	ReloadAssembly (727ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (581ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (175ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (271ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4202 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (95.3 KB). Loaded Objects now: 4725.
+Memory consumption went from 158.8 MB to 158.7 MB.
+Total: 2.318000 ms (FindLiveObjects: 0.177000 ms CreateObjectMapping: 0.091700 ms MarkObjects: 1.999700 ms  DeleteObjects: 0.048900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005094 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\carso\OneDrive\Desktop\Unity Games\JurassicParkGame\Jurassic Park Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\carso\OneDrive\Desktop\Unity Games\JurassicParkGame\Jurassic Park Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.689 seconds
+Domain Reload Profiling:
+	ReloadAssembly (689ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (542ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (155ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (259ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4202 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (95.4 KB). Loaded Objects now: 4740.
+Memory consumption went from 158.9 MB to 158.8 MB.
+Total: 2.184600 ms (FindLiveObjects: 0.178500 ms CreateObjectMapping: 0.094500 ms MarkObjects: 1.883000 ms  DeleteObjects: 0.027800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005355 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\carso\OneDrive\Desktop\Unity Games\JurassicParkGame\Jurassic Park Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\carso\OneDrive\Desktop\Unity Games\JurassicParkGame\Jurassic Park Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.676 seconds
+Domain Reload Profiling:
+	ReloadAssembly (676ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (528ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (155ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (248ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (162ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4202 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (96.4 KB). Loaded Objects now: 4755.
+Memory consumption went from 158.9 MB to 158.8 MB.
+Total: 2.301100 ms (FindLiveObjects: 0.191000 ms CreateObjectMapping: 0.102100 ms MarkObjects: 1.978300 ms  DeleteObjects: 0.028800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 300.016168 seconds.
+  path: Assets/Finished Assets/Carnivore Enemy Finished.prefab
+  artifactKey: Guid(2e2a56f1bd12b5b41ac16897c8c9fa01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finished Assets/Carnivore Enemy Finished.prefab using Guid(2e2a56f1bd12b5b41ac16897c8c9fa01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7a0496c418366f194f42780137ee66') in 0.111995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/8-Bit Sfx/Mp3/Jingle_Achievement_00.mp3
+  artifactKey: Guid(0a9177415caff4fc8ace0cae0ae19b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8-Bit Sfx/Mp3/Jingle_Achievement_00.mp3 using Guid(0a9177415caff4fc8ace0cae0ae19b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4fd26c3f4f103a517d74ebdf1b83e2') in 0.034244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AlpacaStudio_Menu_Template/Fonts/Lemon-Regular.ttf
+  artifactKey: Guid(6fd9f74f13d3d5b42b08bbb1be66f936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlpacaStudio_Menu_Template/Fonts/Lemon-Regular.ttf using Guid(6fd9f74f13d3d5b42b08bbb1be66f936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e1595766a46713bc992c638e4e4e28') in 0.044746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/All Files/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All Files/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306fe4421cf25f9fc5bf8ffd8e4eaea6') in 0.007785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/8-Bit Sfx/Wav/Jingle_Achievement_00.wav
+  artifactKey: Guid(b49baca2ffa6f49b7a10dec55dccc5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8-Bit Sfx/Wav/Jingle_Achievement_00.wav using Guid(b49baca2ffa6f49b7a10dec55dccc5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38596d3739e992eed54f13f175ba41d8') in 0.014581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/8-Bit Sfx/Mp3/Jingle_Achievement_01.mp3
+  artifactKey: Guid(bf7c660e4b34144d1a60a5063a3b1f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8-Bit Sfx/Mp3/Jingle_Achievement_01.mp3 using Guid(bf7c660e4b34144d1a60a5063a3b1f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21db9331be7644bd9a9574ad51fa28dc') in 0.010132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.101609 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Fantasy Creatures Demo/Abyss_monster_1.wav
+  artifactKey: Guid(0405dc9dbd15e454791054a10e7382a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Fantasy Creatures Demo/Abyss_monster_1.wav using Guid(0405dc9dbd15e454791054a10e7382a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98bb86f9977240d994611fb08aae81b4') in 0.015653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/All Files/Scenes/DIG4715C Spring 2023 Project 1 Art Assets/Ammo_Sprite_2.png
+  artifactKey: Guid(b8fa2a5d9114fa449a12ad7b69d4dadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All Files/Scenes/DIG4715C Spring 2023 Project 1 Art Assets/Ammo_Sprite_2.png using Guid(b8fa2a5d9114fa449a12ad7b69d4dadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7ac93e2944bb89f1bd416a0ad4d008') in 0.031307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/All Files/Scenes/DIG4715C Spring 2023 Project 1 Art Assets/Boss_Dino_Idle_Left 1.png
+  artifactKey: Guid(523c4c93c7e5f114cb11f7071e94a278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All Files/Scenes/DIG4715C Spring 2023 Project 1 Art Assets/Boss_Dino_Idle_Left 1.png using Guid(523c4c93c7e5f114cb11f7071e94a278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afaf64bdf2f860366fb258900f7f2458') in 0.035683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/All Files/Scenes/DIG4715C Spring 2023 Project 1 Art Assets/Ammo_Sprite_3.png
+  artifactKey: Guid(f7cdc1770e6b0a54f98b16abc1982877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All Files/Scenes/DIG4715C Spring 2023 Project 1 Art Assets/Ammo_Sprite_3.png using Guid(f7cdc1770e6b0a54f98b16abc1982877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7aeee0cd52313ac44e513611698272') in 0.016202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/beep/beep_4.wav
+  artifactKey: Guid(2926e2190214043fa813d593ede29c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/beep/beep_4.wav using Guid(2926e2190214043fa813d593ede29c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b353feb0f96e74e082158797aed1b862') in 0.012412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Buttons Colletions Demo/beep_21.wav
+  artifactKey: Guid(37841bcb2fedf4257955f6778c63ed2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Buttons Colletions Demo/beep_21.wav using Guid(37841bcb2fedf4257955f6778c63ed2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0373df60848f4cfed2e263aaa1f2ed5e') in 0.009992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/beep/beep_3.wav
+  artifactKey: Guid(b3016411f94144a349c07c7d6c4f3fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/beep/beep_3.wav using Guid(b3016411f94144a349c07c7d6c4f3fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b5cb659b2ea664f116e8a26239c42c') in 0.011396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/All Files/Scenes/DIG4715C Spring 2023 Project 1 Art Assets/Boss_Dino_Idle_Left.png
+  artifactKey: Guid(a27bb6c7845639e42a1308a5bd827e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All Files/Scenes/DIG4715C Spring 2023 Project 1 Art Assets/Boss_Dino_Idle_Left.png using Guid(a27bb6c7845639e42a1308a5bd827e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec86a4bdd8f7f797fc6152bf47bd775e') in 0.024617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Voices Expressions Demo/Awesome.wav
+  artifactKey: Guid(ab20914f6bbd14be592f5f0c8316c683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Voices Expressions Demo/Awesome.wav using Guid(ab20914f6bbd14be592f5f0c8316c683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974221e5e5524430d97aa32dd18dcee4') in 0.010329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/All Files/Scenes/DIG4715C Spring 2023 Project 1 Art Assets/Ammo_Sprite_4.png
+  artifactKey: Guid(603976b7d9fda51458fed5545cca4ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All Files/Scenes/DIG4715C Spring 2023 Project 1 Art Assets/Ammo_Sprite_4.png using Guid(603976b7d9fda51458fed5545cca4ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515e0393b2a718c1af34700228bfa0ea') in 0.013253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.098065 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Buttons Colletions Demo/Chicken_6.wav
+  artifactKey: Guid(4cfcaed00d47c4c1eaa0377e9e009a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Buttons Colletions Demo/Chicken_6.wav using Guid(4cfcaed00d47c4c1eaa0377e9e009a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4251153db3d2679ab13c0ac2ed10d173') in 0.010739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/8-Bit Sfx/Wav/Menu_Navigate_01.wav
+  artifactKey: Guid(7291a588b73434120a6757feba18f112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8-Bit Sfx/Wav/Menu_Navigate_01.wav using Guid(7291a588b73434120a6757feba18f112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc056833904d5cc904b6c721334b1195') in 0.010478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/All Files/Audio/Robot Walking_Broken.wav
+  artifactKey: Guid(9645ade057726c6428a54cc571053c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All Files/Audio/Robot Walking_Broken.wav using Guid(9645ade057726c6428a54cc571053c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339b9c150f2cce9dc7f5d30a9fdf1fa2') in 0.012010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/8-Bit Sfx/Mp3/Menu_Navigate_01.mp3
+  artifactKey: Guid(4509a6078ed9c4923a49b486ecfbdbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8-Bit Sfx/Mp3/Menu_Navigate_01.mp3 using Guid(4509a6078ed9c4923a49b486ecfbdbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ccd9e85bbda76523652c754b0efcc8') in 0.010179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Engines of the Future Demo/Future_engine_17_on.wav
+  artifactKey: Guid(ae378d38aa6c94a1b9d8cf21d5521c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Engines of the Future Demo/Future_engine_17_on.wav using Guid(ae378d38aa6c94a1b9d8cf21d5521c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6211840b895e2ec4c5a2d1ad0d3475e8') in 0.010342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/8-Bit Sfx/Mp3/Open_01.mp3
+  artifactKey: Guid(635bb516efecc4961a33481332684746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8-Bit Sfx/Mp3/Open_01.mp3 using Guid(635bb516efecc4961a33481332684746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50577a03bf02610f79ed81596fcad956') in 0.011456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Engines of the Future Demo/Future_engine_7_on.wav
+  artifactKey: Guid(fdfe608ad536f4a0790021128d416637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Engines of the Future Demo/Future_engine_7_on.wav using Guid(fdfe608ad536f4a0790021128d416637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0f3e1d0dbb3ad6d257ff13f31e7387') in 0.009663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Nightmare ambiences Demo/Nightmare_ambience_3.wav
+  artifactKey: Guid(4b38991310d2a4264b98c46381124922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Sound Solutions - 8 bits Elements/OTHER SOUND PACK DEMO/Nightmare ambiences Demo/Nightmare_ambience_3.wav using Guid(4b38991310d2a4264b98c46381124922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dced2a7a6b1168d41d2de96fd1a666b5') in 0.011046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/8-Bit Sfx/Wav/Open_01.wav
+  artifactKey: Guid(887527ca823ee4cefb250bbaa3453e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8-Bit Sfx/Wav/Open_01.wav using Guid(887527ca823ee4cefb250bbaa3453e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f857a1b4f5fb1b38aa77add3f90bf3') in 0.012132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AlpacaStudio_Menu_Template/ImageAssets/Menu_Background.png
+  artifactKey: Guid(81689118786cf124b9301b1d140ff220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlpacaStudio_Menu_Template/ImageAssets/Menu_Background.png using Guid(81689118786cf124b9301b1d140ff220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3753d84eff5636c01237bd4411b00ef') in 0.035180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/8-Bit Sfx/Wav/Menu_Navigate_03.wav
+  artifactKey: Guid(a4717966cb9c2438d9f2079ae427098c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8-Bit Sfx/Wav/Menu_Navigate_03.wav using Guid(a4717966cb9c2438d9f2079ae427098c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7652f07b6709056e2308e8d6f546449d') in 0.010704 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004926 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\carso\OneDrive\Desktop\Unity Games\JurassicParkGame\Jurassic Park Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\carso\OneDrive\Desktop\Unity Games\JurassicParkGame\Jurassic Park Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.705 seconds
+Domain Reload Profiling:
+	ReloadAssembly (706ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (532ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (164ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (238ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4203 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (95.4 KB). Loaded Objects now: 4825.
+Memory consumption went from 163.8 MB to 163.7 MB.
+Total: 2.332300 ms (FindLiveObjects: 0.243800 ms CreateObjectMapping: 0.107100 ms MarkObjects: 1.952200 ms  DeleteObjects: 0.028300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
